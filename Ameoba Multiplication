@@ -1,0 +1,14 @@
+The environmental eco club  have discovered a new Amoeba that grows in the order of a Fibonacci series every month. They are exhibiting their amoeba in a national conference. They want to know the size of the amoeba at a particular time instant. If a particular month’s index is given can you write a  program that displays the amoeba’s size……???
+//Use Dynamic Programming Strategy
+
+i=int(input('Enter the number of Months \n'))
+a=0
+b=1
+count=2
+while count<i:
+    c=a+b
+    a=b
+    b=c
+    count=count+1
+print('The amoeba size is \n',c)
+
