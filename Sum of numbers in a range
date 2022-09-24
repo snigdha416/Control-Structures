@@ -1,0 +1,8 @@
+Write a program to find the sum of numbers in a given range is discussed here. Given the starting and ending interval, the sum of all the numbers in that range will be displayed as output.
+
+b=int(input())
+n=int(input())
+for i in range(1,n+1):
+    b+=1
+    a=(n*(n+1))//2
+    print(a)
