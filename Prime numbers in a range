@@ -1,0 +1,12 @@
+Program to find prime numbers in a given range is discussed here. A number is said to be prime if it is divisible by 1 and the number itself. Program to find prime numbers in a given range using loop
+
+a=int(input())
+b=int(input())
+for j in range(a,b+1):
+    count=0
+    for i in range(2,(j//2)+1):
+        if j%i==0:
+            count=count+1
+    if count==0 and j!=1:
+        print(j)
+    
